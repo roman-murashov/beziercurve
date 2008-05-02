@@ -1,0 +1,1 @@
+package beziercurves.display {	import flash.geom.Point;		/**	 * @author nico	 */	public class ControlPoint extends Point {		public function ControlPoint(x:Number, y:Number) {			super(x, y);		}	}}

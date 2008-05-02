@@ -1,0 +1,1 @@
+package beziercurves.events {	import flash.events.Event;		/**	 * @author nico	 */	public class PointEvent extends Event {		public static const MOVE:String = "move";		public static const CLICK:String = "click";		public function PointEvent(type:String, bubbles:Boolean = false, cancelable:Boolean = false) {			super(type, bubbles, cancelable);		}	}}
